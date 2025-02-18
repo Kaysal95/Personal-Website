@@ -1,0 +1,14 @@
+#profilePic {
+    width: 50%;
+    height: auto;
+}
+
+.mainBody {
+    background-color: rgb(228, 212, 191);
+}
+#body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#missionStatement {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
