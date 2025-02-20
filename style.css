@@ -8,8 +8,6 @@ body {
     margin: 0;
 }
 
-
-
 .navbar{
     background-color: rgb(130, 143, 101);
     position: fixed;
@@ -71,4 +69,49 @@ nav ul li {
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     align-items: stretch;
+}
+
+section {
+    border: solid #dcdcdc 1px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #708149;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 8%;
+}
+section:hover{
+    background-color: rgb(193, 167, 63);
+    padding: 10px;
+}
+
+#about-text h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 7px;
+    color: bisque;
+}
+
+#about-text p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
 }
